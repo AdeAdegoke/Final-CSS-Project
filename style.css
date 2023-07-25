@@ -42,3 +42,34 @@ h1, p {
   border-radius: 5px;
   margin-top: 20px;
 }
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablet view styles */
+.extension {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+    
+.extension-container2{
+  margin-top: 0;
+}
+.extension-container3{
+  margin-top: 0;
+}
+.section-3-text-container {
+  width: 300px; 
+  height: 340px; 
+  margin-bottom: 20px; 
+}
+.section-3-text-container h1 {
+  font-size: 1.8rem;
+}
+.section-3-text-container p {
+font-size: 1.2rem;
+}
+}
